@@ -2,7 +2,7 @@
 
 angular.module('myApp').factory('TodoService', ['$http', '$q', function($http, $q){
 
-    var REST_SERVICE_URI = 'http://localhost:8080/rest/';
+    var REST_SERVICE_URI = '/rest/';
 
     var factory = {
         fetchAllRecords: fetchAllRecords,
